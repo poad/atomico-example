@@ -1,0 +1,37 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+      timezone: Asia/Tokyo
+    allow:
+      - dependency-type: all
+    rebase-strategy: auto
+    assignees:
+      - poad
+    groups:
+      actions:
+        patterns:
+          - '*'
+
+  - package-ecosystem: npm
+    directories: 
+      - '/non-react/'
+      - '/react-based/nextjs-based/'
+      - '/aws-cdk/'
+      - '/aws-cdk-vitest/'
+    schedule:
+      interval: daily
+      timezone: Asia/Tokyo
+    allow:
+      - dependency-type: all
+    rebase-strategy: auto
+    cooldown:
+      default-days: 7
+    assignees:
+      - poad
+    groups:
+      npm:
+        patterns:
+          - '*'
