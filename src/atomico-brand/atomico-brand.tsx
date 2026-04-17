@@ -1,6 +1,11 @@
-import { Props, c } from "atomico";
+import { c } from "atomico";
 
-function brand({ color, width }: Props<typeof brand>) {
+interface BrandProps {
+  color?: string,
+  width?: string | number,
+}
+
+function brand({ color, width }: BrandProps) {
   return (
     <host>
       <svg
