@@ -19,7 +19,7 @@
     "create:component": "scaff component-tsx src"
   },
   "dependencies": {
-    "atomico": "latest"
+    "atomico": "^2.1.0"
   },
   "devDependencies": {
     "@atomico/scaffold": "^2.9.5",

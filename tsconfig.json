@@ -1,4 +1,10 @@
 {
   "extends": "@atomico/tsconfig/base.json",
+  "compilerOptions": {
+    "moduleResolution": "nodenext",
+    "rootDir": "src",
+    "target": "esnext",
+    "module": "nodenext"
+  },
   "include": ["src/**/*"]
 }

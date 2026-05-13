@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       atomico:
-        specifier: latest
+        specifier: ^2.1.0
         version: 2.1.0
     devDependencies:
       '@atomico/scaffold':
