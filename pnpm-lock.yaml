@@ -7,14 +7,15 @@ settings:
 overrides:
   esbuild@>=0.17.0 <0.28.1: ^0.28.1
   esbuild@>=0.27.3 <0.28.1: ^0.28.1
+  js-yaml@>=5.0.0 <=5.2.1: ^5.2.2
 
 importers:
 
   .:
     dependencies:
       atomico:
-        specifier: ^2.1.0
-        version: 2.1.0
+        specifier: ^2.2.0
+        version: 2.2.0
     devDependencies:
       '@atomico/scaffold':
         specifier: ^2.9.5
@@ -24,10 +25,10 @@ importers:
         version: 1.1.2
       '@atomico/vite':
         specifier: ^3.1.0
-        version: 3.1.0(atomico@2.1.0)
+        version: 3.1.0(atomico@2.2.0)
       vite:
-        specifier: ^7.3.5
-        version: 7.3.5(yaml@2.9.0)
+        specifier: ^7.3.6
+        version: 7.3.6(yaml@2.9.0)
 
 packages:
 
@@ -401,8 +402,8 @@ packages:
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
 
-  atomico@2.1.0:
-    resolution: {integrity: sha512-HNcN/swRH7DF9aBufP39FenPyTwxJct15Eg+KPRdEQvuqxvycZzVIno/bI1pPhWZutE3u9Wphz24kFkqNZuLUQ==}
+  atomico@2.2.0:
+    resolution: {integrity: sha512-JrJQU2e2brn48JLgXiGIoGIlwzRgMKZYG7Uo3Wzwf6nat+QmVwoSurMMvwcFuYEZFO0IHWvH1DYwHWIAyUxaPg==}
     hasBin: true
 
   binary-extensions@2.3.0:
@@ -421,8 +422,8 @@ packages:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
     engines: {node: '>= 8.10.0'}
 
-  es-module-lexer@2.1.0:
-    resolution: {integrity: sha512-n27zTYMjYu1aj4MjCWzSP7G9r75utsaoc8m61weK+W8JMBGGQybd43GstCXZ3WNmSFtGT9wi59qQTW6mhTR5LQ==}
+  es-module-lexer@2.3.1:
+    resolution: {integrity: sha512-shc1dbU90Yl/xq1QrC7QRtfcwURZuVRfPhZbDoldJ1cn1gzDvBaBWlv0eFolj5+0znnPJz5TXLxsN77X/12KTA==}
 
   esbuild@0.28.1:
     resolution: {integrity: sha512-HrJrvZv5ayxBzPfwphOoNzkzOIIlifzk0KJrGK2c8R4+LKpMtpYLQeUdjnwjWv/LZlkH2laZk+4w78pi99D4Vw==}
@@ -474,8 +475,8 @@ packages:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
 
-  js-yaml@5.1.0:
-    resolution: {integrity: sha512-s8VA5jkR8f22S3NAXmhKPFqGUduqZGlsufabVOgN14iTdw/RXcym7bKkbwjxLK9Yw2lEvvmJjFp119+KPeo8Kg==}
+  js-yaml@5.2.2:
+    resolution: {integrity: sha512-dayzUzKkJ1MkuUtZglSebU43utNXH0OWQByK9rKOOuYIO8M5TV1y+n8ALMdG0rdzBnfNkOmZEqrURepb0ejqBw==}
     hasBin: true
 
   kleur@3.0.3:
@@ -501,8 +502,8 @@ packages:
     resolution: {integrity: sha512-71ippSywq5Yb7/tVYyGbkBggbU8H3u5Rz56fH60jGFgr8uHwxs+aSKeqmluIVzM0m0kB7xQjKS6qPfd0b2ZoqQ==}
     hasBin: true
 
-  nanoid@3.3.15:
-    resolution: {integrity: sha512-y7Wygv/7mEOvxTuEQDB8StXdMRBWf1kR/tlhAzBRUFkB2jfcLOAxO/SHmOO2zgz1pVgK29/kyupn059/bCHdjA==}
+  nanoid@3.3.16:
+    resolution: {integrity: sha512-bzlKTyNJ7+LdGIIwy8ijFpIqEQIvafahV7eYykJ8Cvh42EdJeODoJ6gUJXpQJvej1BddH8OqTXZNE/KfbWAu8Q==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -517,8 +518,8 @@ packages:
     resolution: {integrity: sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==}
     engines: {node: '>=8.6'}
 
-  picomatch@4.0.4:
-    resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==}
+  picomatch@4.0.5:
+    resolution: {integrity: sha512-RvwwcruNjI1ncT5xRakeyS9Lf8lcItv34KD+aif+VH9kduAyfYBipGh12274xtenIPZ119/R9BdTBa8gAwSh0A==}
     engines: {node: '>=12'}
 
   postcss-load-config@4.0.2:
@@ -533,8 +534,8 @@ packages:
       ts-node:
         optional: true
 
-  postcss@8.5.15:
-    resolution: {integrity: sha512-FfR8sjd4em2T6fb3I2MwAJU7HWVMr9zba+enmQeeWFfCbm+UOC/0X4DS8XtpUTMwWMGbjKYP7xjfNekzyGmB3A==}
+  postcss@8.5.22:
+    resolution: {integrity: sha512-KBDEIpLrvpv16pp3K0Fw+UCoZfopFjjgeB+0tA/aaThfEE74kKDLrgg603YvOWJyg3+WYtyq3xYsQWsIyZlPqQ==}
     engines: {node: ^10 || ^12 || >=14}
 
   prompts@2.4.2:
@@ -575,8 +576,8 @@ packages:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
 
-  vite@7.3.5:
-    resolution: {integrity: sha512-KuOaNhcnGFN2zIPGA7wRmzF+lJA1sea7rHq17aiJ++9lzY1WWG6Jpwqwe1KNbRVPIqHmr8GLYx7jbrQcN/7/ww==}
+  vite@7.3.6:
+    resolution: {integrity: sha512-4XP60spRGjSZFf1qYH+dJIkK2znL3zQfl9KkOV9MkkRR/3Dls0dxaBsQPTloEc5BLXWPL9vsOxopxyKoMmDueg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -631,9 +632,9 @@ snapshots:
       chokidar: 3.6.0
       fast-glob: 3.3.3
 
-  '@atomico/postcss-imported@1.2.2(postcss@8.5.15)':
+  '@atomico/postcss-imported@1.2.2(postcss@8.5.22)':
     dependencies:
-      postcss: 8.5.15
+      postcss: 8.5.22
 
   '@atomico/scaffold@2.9.5':
     dependencies:
@@ -644,21 +645,21 @@ snapshots:
 
   '@atomico/tsconfig@1.1.2': {}
 
-  '@atomico/vite@3.1.0(atomico@2.1.0)':
+  '@atomico/vite@3.1.0(atomico@2.2.0)':
     dependencies:
       '@atomico/exports': 2.1.0
-      '@atomico/postcss-imported': 1.2.2(postcss@8.5.15)
+      '@atomico/postcss-imported': 1.2.2(postcss@8.5.22)
       '@uppercod/clean-terminal': 1.0.1
       '@uppercod/template-literals': 1.1.3
       acorn-walk: 8.3.5
-      atomico: 2.1.0
+      atomico: 2.2.0
       cac: 6.7.14
-      es-module-lexer: 2.1.0
+      es-module-lexer: 2.3.1
       esbuild: 0.28.1
-      js-yaml: 5.1.0
+      js-yaml: 5.2.2
       magic-string: 0.30.21
-      postcss: 8.5.15
-      postcss-load-config: 4.0.2(postcss@8.5.15)
+      postcss: 8.5.22
+      postcss-load-config: 4.0.2(postcss@8.5.22)
     transitivePeerDependencies:
       - '@atomico/react'
       - '@atomico/vue'
@@ -856,7 +857,7 @@ snapshots:
 
   argparse@2.0.1: {}
 
-  atomico@2.1.0: {}
+  atomico@2.2.0: {}
 
   binary-extensions@2.3.0: {}
 
@@ -878,7 +879,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  es-module-lexer@2.1.0: {}
+  es-module-lexer@2.3.1: {}
 
   esbuild@0.28.1:
     optionalDependencies:
@@ -921,9 +922,9 @@ snapshots:
     dependencies:
       reusify: 1.1.0
 
-  fdir@6.5.0(picomatch@4.0.4):
+  fdir@6.5.0(picomatch@4.0.5):
     optionalDependencies:
-      picomatch: 4.0.4
+      picomatch: 4.0.5
 
   fill-range@7.1.1:
     dependencies:
@@ -948,7 +949,7 @@ snapshots:
 
   is-number@7.0.0: {}
 
-  js-yaml@5.1.0:
+  js-yaml@5.2.2:
     dependencies:
       argparse: 2.0.1
 
@@ -969,7 +970,7 @@ snapshots:
 
   mustache@4.2.0: {}
 
-  nanoid@3.3.15: {}
+  nanoid@3.3.16: {}
 
   normalize-path@3.0.0: {}
 
@@ -977,18 +978,18 @@ snapshots:
 
   picomatch@2.3.2: {}
 
-  picomatch@4.0.4: {}
+  picomatch@4.0.5: {}
 
-  postcss-load-config@4.0.2(postcss@8.5.15):
+  postcss-load-config@4.0.2(postcss@8.5.22):
     dependencies:
       lilconfig: 3.1.3
       yaml: 2.9.0
     optionalDependencies:
-      postcss: 8.5.15
+      postcss: 8.5.22
 
-  postcss@8.5.15:
+  postcss@8.5.22:
     dependencies:
-      nanoid: 3.3.15
+      nanoid: 3.3.16
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
@@ -1046,19 +1047,19 @@ snapshots:
 
   tinyglobby@0.2.17:
     dependencies:
-      fdir: 6.5.0(picomatch@4.0.4)
-      picomatch: 4.0.4
+      fdir: 6.5.0(picomatch@4.0.5)
+      picomatch: 4.0.5
 
   to-regex-range@5.0.1:
     dependencies:
       is-number: 7.0.0
 
-  vite@7.3.5(yaml@2.9.0):
+  vite@7.3.6(yaml@2.9.0):
     dependencies:
       esbuild: 0.28.1
-      fdir: 6.5.0(picomatch@4.0.4)
-      picomatch: 4.0.4
-      postcss: 8.5.15
+      fdir: 6.5.0(picomatch@4.0.5)
+      picomatch: 4.0.5
+      postcss: 8.5.22
       rollup: 4.62.2
       tinyglobby: 0.2.17
     optionalDependencies:
