@@ -4,8 +4,7 @@
   "meta": {
     "id": "vite",
     "title": "Started - Atomico + Vite(JS,JSX,TS,TSX)",
-    "description": "Hassle-free starter template, perfect for starting with Atomico",
-    "branch": "https://github.com/atomicojs/atomico/tree/2-started/"
+    "description": "Hassle-free starter template, perfect for starting with Atomico"
   },
   "workspaces": [
     "src/*"
@@ -30,12 +29,12 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.15.0",
+      "version": "12.18.0",
       "onFail": "download"
     },
     "runtime": {
       "name": "node",
-      "version": "^24.22.1",
+      "version": "^26.13.0",
       "onFail": "download"
     }
   }
