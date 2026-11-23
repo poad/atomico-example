@@ -24,12 +24,12 @@
     "@atomico/scaffold": "^2.9.5",
     "@atomico/tsconfig": "^1.1.2",
     "@atomico/vite": "^3.1.0",
-    "vite": "^7.3.7"
+    "vite": "^7.3.8"
   },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.21.0",
+      "version": "12.23.0",
       "onFail": "download"
     },
     "runtime": {
